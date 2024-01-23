@@ -1,6 +1,21 @@
 
 
-
+def get_triangle_type(arr)
+    if arr.length != 3
+        return "get_triangle_type"
+    end
+    l = arr.uniq.length
+    if l == 1
+        return "equilateral"
+    elsif l == 2
+        return "isosceles"
+    elsif l == 3
+        return "scalene"
+    else
+        return "WTF"
+    end
+    return 0
+end
 
 
 puts(get_triangle_type([2, 6, 5])) # ➞ "scalene"
