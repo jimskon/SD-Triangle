@@ -1,2 +1,4 @@
 # SD-Triangle
-REturn type of triangle
+Return type of triangle
+
+By James Skon
