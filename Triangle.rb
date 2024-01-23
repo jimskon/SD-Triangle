@@ -11,8 +11,6 @@ def get_triangle_type(arr)
         return "isosceles"
     elsif l == 3
         return "scalene"
-    else
-        return "Oh No!!!!"
     end
     return 0
 end
