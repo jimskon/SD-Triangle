@@ -1,5 +1,5 @@
 
-
+# Program written by James Skon
 def get_triangle_type(arr)
     if arr.length != 3
         return "get_triangle_type"
@@ -12,7 +12,7 @@ def get_triangle_type(arr)
     elsif l == 3
         return "scalene"
     else
-        return "WTF"
+        return "Oh No!!!!"
     end
     return 0
 end
